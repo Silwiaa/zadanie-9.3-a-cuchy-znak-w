@@ -2,6 +2,6 @@ var test = 'Velociraptor is a genus of herbivorous ceratopsid dinosaur that firs
     dinosaur = 'triceratops',
     dinosaurUpperCased = dinosaur.toUpperCase(),
     testCharsAfter = test.replace('Velociraptor', dinosaurUpperCased),
-    halfOftest = testCharsAfter.slice(0, testCharsAfter.lenght/2);
+    halfOftest = testCharsAfter.slice(0, testCharsAfter.length`/2);
 
 console.log(halfOftest);
